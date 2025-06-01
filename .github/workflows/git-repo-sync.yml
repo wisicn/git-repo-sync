@@ -1,12 +1,11 @@
 name: Mirror to GitLab
 
 on: 
-  - push
+  push
       branches:
         - master
-  - delete
-      branches:
-        - master
+  delete
+
 jobs:
   sync:
     runs-on: ubuntu-latest
