@@ -1,10 +1,10 @@
 name: Mirror to GitLab
 
 on: 
-  push
+  push:
       branches:
         - master
-  delete
+  delete:
 
 jobs:
   sync:
