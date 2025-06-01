@@ -1,9 +1,7 @@
 # Git Repo Sync
 
-![build](https://github.com/wangchucheng/git-repo-sync/workflows/build/badge.svg)
-![license](https://img.shields.io/github/license/wangchucheng/git-repo-sync)
-
 Git Repo Sync enables you to synchronize code to other code management platforms, such as GitLab, Gitee, etc.
+This repository is forked from [wangchucheng/git-repo-sync](https://github.com/wangchucheng/git-repo-sync) .
 
 ## Try Git Repo Sync
 
