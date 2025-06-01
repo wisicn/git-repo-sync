@@ -13,12 +13,11 @@ If any of your target URL, username and token is private, just setup the secert 
 name: <action-name>
 
 on: 
-  - push
+  push:
       branches:
         - master
-  - delete
-      branches:
-        - master
+  delete:
+
 jobs:
   sync:
     runs-on: ubuntu-latest
