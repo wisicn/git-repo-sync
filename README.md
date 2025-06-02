@@ -32,6 +32,6 @@ jobs:
         target-url: ${{ secrets.GITLAB_URL }}
         # Such as wangchucheng
         target-username: ${{ secrets.GITLAB_USERNAME }}
-        # You can store token in your project's 'Setting > Secrets' and reference the name here. Such as ${{ secrets.ACCESS_TOKEN }}
+        # You can store token in your project's 'Setting > Secrets' and reference the name here. Such as ${{ secrets.GITLAB_ACCESS_TOKEN }}
         target-token: ${{ secrets.GITLAB_ACCESS_TOKEN }}
 ```
